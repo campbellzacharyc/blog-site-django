@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   blogsitedjangomain:
-    image: blogsitedjangomain
+    image: 360680043261.dkr.ecr.us-east-2.amazonaws.com/docker_django_aws1
     build:
       context: .
       dockerfile: ./Dockerfile
